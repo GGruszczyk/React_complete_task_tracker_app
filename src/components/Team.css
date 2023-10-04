@@ -1,0 +1,15 @@
+/* Team.css */
+.developer-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente elegante */
+  font-size: 20px; /* Tamaño de fuente ligeramente más grande */
+  font-weight: 600; /* Peso de la fuente semi-negrita */
+  color: #007bff; /* Color de texto azul brillante */
+  margin-left: 10px; /* Margen izquierdo para separar el nombre del avatar */
+  text-decoration: none; /* Sin subrayado */
+  transition: color 0.3s ease; /* Animación de transición suave para el color del texto */
+
+  /* Efecto de cambio de color al pasar el mouse */
+  &:hover {
+    color: #0056b3; /* Color de texto azul más oscuro al pasar el mouse */
+  }
+}
